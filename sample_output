@@ -1,0 +1,29 @@
+PS C:\Users\sruja\OneDrive\Documents\RAG\ready_tensor_pubs> python ready_tensor_bot.py
+🧠 Ready Tensor Publication Explorer
+🔍 Ask questions about any publication (e.g., 'What models were used?', 'Limitations?', 'Summary?')
+Type 'quit' to exit.
+
+C:\Users\sruja\OneDrive\Documents\RAG\ready_tensor_pubs\ready_tensor_bot.py:33: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")      
+💬 Question: What is this publication about?
+C:\Users\sruja\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+C:\Users\sruja\AppData\Roaming\Python\Python312\site-packages\langchain_google_genai\chat_models.py:499: UserWarning: Convert_system_message_to_human will be deprecated!
+  warnings.warn("Convert_system_message_to_human will be deprecated!")
+
+🟢 Answer: This publication is about evaluating the quality of technical publications, particularly focusing on whether they explicitly state their core purpose. It describes the criteria for a clear purpose statement, the scoring logic for assessing publications, and how an evaluation rubric is used to identify strengths and areas for improvement in publications, especially for AI and data science contributions. It also mentions providing recommendations to authors to enhance their work.
+
+📎 Source(s):
+  - From: project_1_publications.json
+------------------------------------------------------------
+💬 Question: What models or tools were used?
+C:\Users\sruja\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `BertSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+C:\Users\sruja\AppData\Roaming\Python\Python312\site-packages\langchain_google_genai\chat_models.py:499: UserWarning: Convert_system_message_to_human will be deprecated!
+  warnings.warn("Convert_system_message_to_human will be deprecated!")
+
+🟢 Answer: The publication mentions the use of established open-source libraries for model implementations, including Darts, GluonTS, Skforecast, and Nixtla. These libraries provided robust preprocessing and model implementations for forecasting models.
+
+📎 Source(s):
+  - From: project_1_publications.json
+------------------------------------------------------------
